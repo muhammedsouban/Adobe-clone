@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.image-sm{
+    display: none;
+}
+#semi-header{
+    height: 56px;
+    background-color: black;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.head-3 .span1{
+    margin-left: 40px;
+    color: black;
+    font-size: 13px
+}
+@media (max-width: 768px) { 
+    .head-3{
+        display: none;
+    }
+     }
+@media (max-width: 768px) { 
+#semi-header{
+    display: none;
+}
+ }
+span{
+    color: rgb(255, 255, 255);
+    line-height: 56px;
+    font-family:'adobe-clean', "Source Sans Pro", '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', sans-serif;
+}
+#semi-header a{
+    border-radius: 16px;
+    border-style: solid;
+    border-color: white;
+    height: 32px;
+    width: 94px;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-left: 16px;
+    text-align: center;
+    font-family:'adobe-clean', "Source Sans Pro", '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+.btn-1{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 170px;
+}
+.h-line{
+    margin-top: 85px;
+}
+.card-2{
+    width: 23.5rem;
+    background-color: #F5F5F5;
+    border-style: none;
+    border-radius: 0px;
+}
+.bg-image1{
+    margin-top: 100px;
+    background-image: url(image/BannerFrontDoorAX-Desktop-1.avif);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-bg{
+    padding-top: 50px;
+}
+.accordion{
+    width: 100%;
+    
+}
+.button-b{
+    background-color: #1473e6;
+    border-radius: 30px;
+    width: 87px;
+    text-align: center;
+   
+}
+.btncard{
+    background-color: #1473e6;
+    color: white;
+    border-radius: 30px;
+    margin-left: 160px;
+}
+
+.btn-2{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 14px;
+}
+.home{
+    display: flex;
+    background: url("image/intro-1111-promo-q4fy22-marquee-dt.jpeg") no-repeat center;
+    height: 560px;
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .home-content{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 15px;
+}
+.home .home-content .text-2{
+    font-size: 40px;
+    width: 40%;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 20px;
+    width: 45%;
+    margin: 5px 0;
+}
+.home .home-content .text-3 .term{
+    font-size: 17px;
+}
+.home .home-content .btn{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+.home .home-content .btn:hover{
+    color: rgb(151, 151, 151);
+    background: none;
+}
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 1347px){
+    .home .home-content .text-2{
+        font-size: 30px;
+        width: 50%;
+    }
+    .home .home-content .text-3{
+        font-size: 18px;
+        width: 55%;
+    }
+    .home .home-content a{
+        font-size: 23px;
+    }
+    .max-width{
+        max-width: 1300px;
+    }
+    .home .home-content{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .home{
+        display: flex;
+        background: url("image/back1.jpg") no-repeat center;
+        color: rgb(0, 0, 0);
+        height: 500px;
+        margin-top: -50px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .image-sm{
+        display: none;
+    }
+}
+@media (max-width: 947px){
+    .home .home-content .text-2{
+        font-size: 30px;
+        width: 60%;
+    }
+    .home .home-content .text-3{
+        font-size: 18px;
+        width: 55%;
+    }
+    .home .home-content a{
+        font-size: 23px;
+    }
+    .max-width{
+        max-width: 950px;
+    }
+    
+}
+@media(max-width:780px){
+    .home{
+        display: flex;
+        background: url("image/back.jpg") no-repeat center;
+        color: rgb(0, 0, 0);
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .image-sm{
+        display: block;
+    }
+    .home .home-content .text-2{
+        font-size: 35px;
+        width: 70%;
+    }
+    .home .home-content .text-3{
+        font-size: 20px;
+        width: 80%;
+    }
+    .home .home-content a{
+        font-size: 17px;
+    }
+    .home .home-content{
+        margin-left: 50px;
+    }
+    .text-bg{
+        padding-top: 70px;
+    }
+    .text-bg h3{
+        font-size: 15px;
+    }
+    .text-bg h4{
+        font-size: 15px;
+    }
+    .text-bg .btn-2{
+        font-size: 10px;
+    }
+}
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 20px;
+    }
+    .home .home-content .text-2{
+        font-size: 30px;
+        width: 80%;
+    }
+    .home .home-content .text-3{
+        font-size: 21px;
+        width: 90%;
+    }
+    .home .home-content a{
+        font-size: 17px;
+    }
+    .home .home-content{
+        margin-left: 50px;
+    }
+    .home{
+        display: flex;
+        background: url("image/back.jpg") no-repeat center;
+        color: rgb(0, 0, 0);
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
+
+@media (max-width: 500px) {
+    .home .home-content .text-2{
+        font-size: 20px;
+        width: 90%;
+    }
+    .home .home-content .text-3{
+        font-size: 17px;
+        width: 95%;
+    }
+    .home{
+        display: flex;
+        background: url("image/back.jpg") no-repeat center;
+        color: rgb(0, 0, 0);
+        font-family: 'Ubuntu', sans-serif;
+        background-size: cover;
+        height: 450px;
+    }
+    .home .home-content{
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+}
+.block{
+    background-color: black;
+}
